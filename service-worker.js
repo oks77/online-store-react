@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://oks77.github.io/online-store-react-build/precache-manifest.56cb274fc2562293bfa8169ef6da6e43.js"
+  "https://oks77.github.io/online-store-react/precache-manifest.9f043b8929b096fccca052da13447623.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://oks77.github.io/online-store-react-build/index.html", {
+workbox.routing.registerNavigationRoute("https://oks77.github.io/online-store-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
